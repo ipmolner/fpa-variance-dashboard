@@ -63,7 +63,8 @@ python -m venv .venv
 # 4. Generate the synthetic dataset
 & ".\.venv\Scripts\python.exe" generate_data.py
 
-# 5. Run the test suite
+# 5. Install dev dependencies and run the test suite
+& ".\.venv\Scripts\python.exe" -m pip install -r requirements-dev.txt
 & ".\.venv\Scripts\python.exe" -m pytest -q
 
 # 6. Launch the dashboard
@@ -80,6 +81,8 @@ app.py                   # Streamlit dashboard — loads, filters, and renders; 
 test_variance_engine.py  # Unit tests for variance_engine.py
 test_commentary.py       # Unit tests for commentary.py
 requirements.txt         # Direct dependencies
+requirements-dev.txt      # Dev-only dependencies (test tooling)
+runtime.txt               # Python version pin for Streamlit Cloud
 .gitignore
 README.md
 ```
