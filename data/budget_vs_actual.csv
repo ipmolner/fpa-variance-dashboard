@@ -1,0 +1,673 @@
+month,department,account,account_type,budget,actual
+2024-01,Sales,Revenue,revenue,1600000.0,1649064.0
+2024-02,Sales,Revenue,revenue,1600000.0,1573761.0
+2024-03,Sales,Revenue,revenue,1800000.0,1883278.0
+2024-04,Sales,Revenue,revenue,1900000.0,1772548.0
+2024-05,Sales,Revenue,revenue,1900000.0,1808256.0
+2024-06,Sales,Revenue,revenue,2000000.0,1948847.0
+2024-07,Sales,Revenue,revenue,1900000.0,1946501.0
+2024-08,Sales,Revenue,revenue,1900000.0,1916970.0
+2024-09,Sales,Revenue,revenue,2100000.0,2140765.0
+2024-10,Sales,Revenue,revenue,2200000.0,2178316.0
+2024-11,Sales,Revenue,revenue,2400000.0,2521869.0
+2024-12,Sales,Revenue,revenue,2700000.0,2827501.0
+2025-01,Sales,Revenue,revenue,1792000.0,1831981.0
+2025-02,Sales,Revenue,revenue,1792000.0,1898541.0
+2025-03,Sales,Revenue,revenue,2016000.0,2089307.0
+2025-04,Sales,Revenue,revenue,2128000.0,2106560.0
+2025-05,Sales,Revenue,revenue,2128000.0,2198025.0
+2025-06,Sales,Revenue,revenue,2240000.0,2209624.0
+2025-07,Sales,Revenue,revenue,2128000.0,2235987.0
+2025-08,Sales,Revenue,revenue,2128000.0,2166842.0
+2025-09,Sales,Revenue,revenue,2352000.0,2383822.0
+2025-10,Sales,Revenue,revenue,2464000.0,2454557.0
+2025-11,Sales,Revenue,revenue,2688000.0,2856777.0
+2025-12,Sales,Revenue,revenue,3024000.0,3068125.0
+2024-01,Sales,Salaries & Benefits,expense,300000.0,296788.0
+2024-02,Sales,Salaries & Benefits,expense,300000.0,297359.0
+2024-03,Sales,Salaries & Benefits,expense,300000.0,303992.0
+2024-04,Sales,Salaries & Benefits,expense,300000.0,302741.0
+2024-05,Sales,Salaries & Benefits,expense,300000.0,303095.0
+2024-06,Sales,Salaries & Benefits,expense,300000.0,303231.0
+2024-07,Sales,Salaries & Benefits,expense,300000.0,316062.0
+2024-08,Sales,Salaries & Benefits,expense,300000.0,296952.0
+2024-09,Sales,Salaries & Benefits,expense,300000.0,296158.0
+2024-10,Sales,Salaries & Benefits,expense,300000.0,293897.0
+2024-11,Sales,Salaries & Benefits,expense,300000.0,304620.0
+2024-12,Sales,Salaries & Benefits,expense,300000.0,308467.0
+2025-01,Sales,Salaries & Benefits,expense,336000.0,335043.0
+2025-02,Sales,Salaries & Benefits,expense,336000.0,328943.0
+2025-03,Sales,Salaries & Benefits,expense,336000.0,329074.0
+2025-04,Sales,Salaries & Benefits,expense,336000.0,341465.0
+2025-05,Sales,Salaries & Benefits,expense,336000.0,342243.0
+2025-06,Sales,Salaries & Benefits,expense,336000.0,340562.0
+2025-07,Sales,Salaries & Benefits,expense,336000.0,330410.0
+2025-08,Sales,Salaries & Benefits,expense,336000.0,337950.0
+2025-09,Sales,Salaries & Benefits,expense,336000.0,336980.0
+2025-10,Sales,Salaries & Benefits,expense,336000.0,337837.0
+2025-11,Sales,Salaries & Benefits,expense,336000.0,343320.0
+2025-12,Sales,Salaries & Benefits,expense,336000.0,337878.0
+2024-01,Sales,Commissions,expense,96667.0,103487.0
+2024-02,Sales,Commissions,expense,96667.0,100827.0
+2024-03,Sales,Commissions,expense,108750.0,114515.0
+2024-04,Sales,Commissions,expense,114792.0,122644.0
+2024-05,Sales,Commissions,expense,114792.0,111856.0
+2024-06,Sales,Commissions,expense,120833.0,123928.0
+2024-07,Sales,Commissions,expense,114792.0,116954.0
+2024-08,Sales,Commissions,expense,114792.0,116083.0
+2024-09,Sales,Commissions,expense,126875.0,130379.0
+2024-10,Sales,Commissions,expense,132917.0,147175.0
+2024-11,Sales,Commissions,expense,145000.0,145150.0
+2024-12,Sales,Commissions,expense,163125.0,176758.0
+2025-01,Sales,Commissions,expense,108267.0,104398.0
+2025-02,Sales,Commissions,expense,108267.0,110966.0
+2025-03,Sales,Commissions,expense,121800.0,127564.0
+2025-04,Sales,Commissions,expense,128567.0,137101.0
+2025-05,Sales,Commissions,expense,128567.0,137824.0
+2025-06,Sales,Commissions,expense,135333.0,145578.0
+2025-07,Sales,Commissions,expense,128567.0,131692.0
+2025-08,Sales,Commissions,expense,128567.0,131034.0
+2025-09,Sales,Commissions,expense,142100.0,153270.0
+2025-10,Sales,Commissions,expense,148867.0,153540.0
+2025-11,Sales,Commissions,expense,162400.0,159573.0
+2025-12,Sales,Commissions,expense,182700.0,180691.0
+2024-01,Sales,Travel & Entertainment,expense,21000.0,20131.0
+2024-02,Sales,Travel & Entertainment,expense,31500.0,32205.0
+2024-03,Sales,Travel & Entertainment,expense,38500.0,38747.0
+2024-04,Sales,Travel & Entertainment,expense,40250.0,41501.0
+2024-05,Sales,Travel & Entertainment,expense,40250.0,39476.0
+2024-06,Sales,Travel & Entertainment,expense,38500.0,38775.0
+2024-07,Sales,Travel & Entertainment,expense,33250.0,34186.0
+2024-08,Sales,Travel & Entertainment,expense,31500.0,31062.0
+2024-09,Sales,Travel & Entertainment,expense,42000.0,45383.0
+2024-10,Sales,Travel & Entertainment,expense,42000.0,43269.0
+2024-11,Sales,Travel & Entertainment,expense,36750.0,36150.0
+2024-12,Sales,Travel & Entertainment,expense,24500.0,24079.0
+2025-01,Sales,Travel & Entertainment,expense,23520.0,22254.0
+2025-02,Sales,Travel & Entertainment,expense,35280.0,36053.0
+2025-03,Sales,Travel & Entertainment,expense,43120.0,42209.0
+2025-04,Sales,Travel & Entertainment,expense,45080.0,45105.0
+2025-05,Sales,Travel & Entertainment,expense,45080.0,46055.0
+2025-06,Sales,Travel & Entertainment,expense,43120.0,43986.0
+2025-07,Sales,Travel & Entertainment,expense,37240.0,38355.0
+2025-08,Sales,Travel & Entertainment,expense,35280.0,35124.0
+2025-09,Sales,Travel & Entertainment,expense,47040.0,48966.0
+2025-10,Sales,Travel & Entertainment,expense,47040.0,49694.0
+2025-11,Sales,Travel & Entertainment,expense,41160.0,38035.0
+2025-12,Sales,Travel & Entertainment,expense,27440.0,25653.0
+2024-01,Sales,Software & Subscriptions,expense,20000.0,18810.0
+2024-02,Sales,Software & Subscriptions,expense,20000.0,19102.0
+2024-03,Sales,Software & Subscriptions,expense,20000.0,20360.0
+2024-04,Sales,Software & Subscriptions,expense,20000.0,19185.0
+2024-05,Sales,Software & Subscriptions,expense,20000.0,19660.0
+2024-06,Sales,Software & Subscriptions,expense,20000.0,21169.0
+2024-07,Sales,Software & Subscriptions,expense,20000.0,19679.0
+2024-08,Sales,Software & Subscriptions,expense,20000.0,20664.0
+2024-09,Sales,Software & Subscriptions,expense,20000.0,19160.0
+2024-10,Sales,Software & Subscriptions,expense,20000.0,19815.0
+2024-11,Sales,Software & Subscriptions,expense,20000.0,19145.0
+2024-12,Sales,Software & Subscriptions,expense,20000.0,19695.0
+2025-01,Sales,Software & Subscriptions,expense,22400.0,23247.0
+2025-02,Sales,Software & Subscriptions,expense,22400.0,20659.0
+2025-03,Sales,Software & Subscriptions,expense,22400.0,22838.0
+2025-04,Sales,Software & Subscriptions,expense,22400.0,22640.0
+2025-05,Sales,Software & Subscriptions,expense,22400.0,21801.0
+2025-06,Sales,Software & Subscriptions,expense,22400.0,20942.0
+2025-07,Sales,Software & Subscriptions,expense,22400.0,22473.0
+2025-08,Sales,Software & Subscriptions,expense,22400.0,21866.0
+2025-09,Sales,Software & Subscriptions,expense,22400.0,22635.0
+2025-10,Sales,Software & Subscriptions,expense,22400.0,22422.0
+2025-11,Sales,Software & Subscriptions,expense,22400.0,24015.0
+2025-12,Sales,Software & Subscriptions,expense,22400.0,22159.0
+2024-01,Marketing,Salaries & Benefits,expense,150000.0,146162.0
+2024-02,Marketing,Salaries & Benefits,expense,150000.0,150672.0
+2024-03,Marketing,Salaries & Benefits,expense,150000.0,150825.0
+2024-04,Marketing,Salaries & Benefits,expense,150000.0,155097.0
+2024-05,Marketing,Salaries & Benefits,expense,150000.0,153132.0
+2024-06,Marketing,Salaries & Benefits,expense,150000.0,151338.0
+2024-07,Marketing,Salaries & Benefits,expense,150000.0,155487.0
+2024-08,Marketing,Salaries & Benefits,expense,150000.0,145542.0
+2024-09,Marketing,Salaries & Benefits,expense,150000.0,147601.0
+2024-10,Marketing,Salaries & Benefits,expense,150000.0,146525.0
+2024-11,Marketing,Salaries & Benefits,expense,150000.0,148538.0
+2024-12,Marketing,Salaries & Benefits,expense,150000.0,144837.0
+2025-01,Marketing,Salaries & Benefits,expense,165000.0,167620.0
+2025-02,Marketing,Salaries & Benefits,expense,165000.0,164083.0
+2025-03,Marketing,Salaries & Benefits,expense,165000.0,158933.0
+2025-04,Marketing,Salaries & Benefits,expense,165000.0,160811.0
+2025-05,Marketing,Salaries & Benefits,expense,165000.0,166293.0
+2025-06,Marketing,Salaries & Benefits,expense,165000.0,168457.0
+2025-07,Marketing,Salaries & Benefits,expense,165000.0,173237.0
+2025-08,Marketing,Salaries & Benefits,expense,165000.0,177020.0
+2025-09,Marketing,Salaries & Benefits,expense,165000.0,166709.0
+2025-10,Marketing,Salaries & Benefits,expense,165000.0,160918.0
+2025-11,Marketing,Salaries & Benefits,expense,165000.0,156205.0
+2025-12,Marketing,Salaries & Benefits,expense,165000.0,166104.0
+2024-01,Marketing,Advertising & Media,expense,156098.0,162875.0
+2024-02,Marketing,Advertising & Media,expense,156098.0,165668.0
+2024-03,Marketing,Advertising & Media,expense,175610.0,184821.0
+2024-04,Marketing,Advertising & Media,expense,175610.0,188546.0
+2024-05,Marketing,Advertising & Media,expense,185366.0,209087.0
+2024-06,Marketing,Advertising & Media,expense,214634.0,233322.0
+2024-07,Marketing,Advertising & Media,expense,175610.0,188405.0
+2024-08,Marketing,Advertising & Media,expense,175610.0,181474.0
+2024-09,Marketing,Advertising & Media,expense,195122.0,196027.0
+2024-10,Marketing,Advertising & Media,expense,234146.0,257120.0
+2024-11,Marketing,Advertising & Media,expense,263415.0,302289.0
+2024-12,Marketing,Advertising & Media,expense,292683.0,368651.0
+2025-01,Marketing,Advertising & Media,expense,171707.0,186451.0
+2025-02,Marketing,Advertising & Media,expense,171707.0,193037.0
+2025-03,Marketing,Advertising & Media,expense,193171.0,204284.0
+2025-04,Marketing,Advertising & Media,expense,193171.0,198324.0
+2025-05,Marketing,Advertising & Media,expense,203902.0,211359.0
+2025-06,Marketing,Advertising & Media,expense,236098.0,247280.0
+2025-07,Marketing,Advertising & Media,expense,193171.0,227127.0
+2025-08,Marketing,Advertising & Media,expense,193171.0,201484.0
+2025-09,Marketing,Advertising & Media,expense,214634.0,239903.0
+2025-10,Marketing,Advertising & Media,expense,257561.0,278003.0
+2025-11,Marketing,Advertising & Media,expense,289756.0,345366.0
+2025-12,Marketing,Advertising & Media,expense,321951.0,385480.0
+2024-01,Marketing,Events & Sponsorships,expense,30000.0,31289.0
+2024-02,Marketing,Events & Sponsorships,expense,35000.0,36686.0
+2024-03,Marketing,Events & Sponsorships,expense,55000.0,56129.0
+2024-04,Marketing,Events & Sponsorships,expense,65000.0,69555.0
+2024-05,Marketing,Events & Sponsorships,expense,60000.0,61772.0
+2024-06,Marketing,Events & Sponsorships,expense,45000.0,44768.0
+2024-07,Marketing,Events & Sponsorships,expense,30000.0,29775.0
+2024-08,Marketing,Events & Sponsorships,expense,35000.0,37022.0
+2024-09,Marketing,Events & Sponsorships,expense,60000.0,67264.0
+2024-10,Marketing,Events & Sponsorships,expense,70000.0,102004.0
+2024-11,Marketing,Events & Sponsorships,expense,65000.0,67903.0
+2024-12,Marketing,Events & Sponsorships,expense,50000.0,53143.0
+2025-01,Marketing,Events & Sponsorships,expense,33000.0,36589.0
+2025-02,Marketing,Events & Sponsorships,expense,38500.0,40805.0
+2025-03,Marketing,Events & Sponsorships,expense,60500.0,62406.0
+2025-04,Marketing,Events & Sponsorships,expense,71500.0,78634.0
+2025-05,Marketing,Events & Sponsorships,expense,66000.0,70573.0
+2025-06,Marketing,Events & Sponsorships,expense,49500.0,55396.0
+2025-07,Marketing,Events & Sponsorships,expense,33000.0,34922.0
+2025-08,Marketing,Events & Sponsorships,expense,38500.0,38304.0
+2025-09,Marketing,Events & Sponsorships,expense,66000.0,65237.0
+2025-10,Marketing,Events & Sponsorships,expense,77000.0,86570.0
+2025-11,Marketing,Events & Sponsorships,expense,71500.0,80621.0
+2025-12,Marketing,Events & Sponsorships,expense,55000.0,57306.0
+2024-01,Marketing,Software & Subscriptions,expense,25000.0,24569.0
+2024-02,Marketing,Software & Subscriptions,expense,25000.0,26644.0
+2024-03,Marketing,Software & Subscriptions,expense,25000.0,23755.0
+2024-04,Marketing,Software & Subscriptions,expense,25000.0,23993.0
+2024-05,Marketing,Software & Subscriptions,expense,25000.0,25724.0
+2024-06,Marketing,Software & Subscriptions,expense,25000.0,24556.0
+2024-07,Marketing,Software & Subscriptions,expense,25000.0,24994.0
+2024-08,Marketing,Software & Subscriptions,expense,25000.0,24816.0
+2024-09,Marketing,Software & Subscriptions,expense,25000.0,25380.0
+2024-10,Marketing,Software & Subscriptions,expense,25000.0,26583.0
+2024-11,Marketing,Software & Subscriptions,expense,25000.0,25102.0
+2024-12,Marketing,Software & Subscriptions,expense,25000.0,25724.0
+2025-01,Marketing,Software & Subscriptions,expense,27500.0,24963.0
+2025-02,Marketing,Software & Subscriptions,expense,27500.0,27440.0
+2025-03,Marketing,Software & Subscriptions,expense,27500.0,26457.0
+2025-04,Marketing,Software & Subscriptions,expense,27500.0,25992.0
+2025-05,Marketing,Software & Subscriptions,expense,27500.0,26413.0
+2025-06,Marketing,Software & Subscriptions,expense,27500.0,27087.0
+2025-07,Marketing,Software & Subscriptions,expense,27500.0,28633.0
+2025-08,Marketing,Software & Subscriptions,expense,27500.0,25859.0
+2025-09,Marketing,Software & Subscriptions,expense,27500.0,27538.0
+2025-10,Marketing,Software & Subscriptions,expense,27500.0,26901.0
+2025-11,Marketing,Software & Subscriptions,expense,27500.0,27095.0
+2025-12,Marketing,Software & Subscriptions,expense,27500.0,28741.0
+2024-01,Marketing,Travel & Entertainment,expense,9000.0,9218.0
+2024-02,Marketing,Travel & Entertainment,expense,13500.0,14312.0
+2024-03,Marketing,Travel & Entertainment,expense,16500.0,16385.0
+2024-04,Marketing,Travel & Entertainment,expense,17250.0,16710.0
+2024-05,Marketing,Travel & Entertainment,expense,17250.0,17076.0
+2024-06,Marketing,Travel & Entertainment,expense,16500.0,16680.0
+2024-07,Marketing,Travel & Entertainment,expense,14250.0,14363.0
+2024-08,Marketing,Travel & Entertainment,expense,13500.0,12841.0
+2024-09,Marketing,Travel & Entertainment,expense,18000.0,18073.0
+2024-10,Marketing,Travel & Entertainment,expense,18000.0,18185.0
+2024-11,Marketing,Travel & Entertainment,expense,15750.0,17534.0
+2024-12,Marketing,Travel & Entertainment,expense,10500.0,11387.0
+2025-01,Marketing,Travel & Entertainment,expense,9900.0,9520.0
+2025-02,Marketing,Travel & Entertainment,expense,14850.0,14658.0
+2025-03,Marketing,Travel & Entertainment,expense,18150.0,16955.0
+2025-04,Marketing,Travel & Entertainment,expense,18975.0,18471.0
+2025-05,Marketing,Travel & Entertainment,expense,18975.0,19244.0
+2025-06,Marketing,Travel & Entertainment,expense,18150.0,19135.0
+2025-07,Marketing,Travel & Entertainment,expense,15675.0,15161.0
+2025-08,Marketing,Travel & Entertainment,expense,14850.0,14413.0
+2025-09,Marketing,Travel & Entertainment,expense,19800.0,17887.0
+2025-10,Marketing,Travel & Entertainment,expense,19800.0,19655.0
+2025-11,Marketing,Travel & Entertainment,expense,17325.0,16497.0
+2025-12,Marketing,Travel & Entertainment,expense,11550.0,11275.0
+2024-01,Engineering,Salaries & Benefits,expense,516667.0,474341.0
+2024-02,Engineering,Salaries & Benefits,expense,516667.0,484449.0
+2024-03,Engineering,Salaries & Benefits,expense,516667.0,462963.0
+2024-04,Engineering,Salaries & Benefits,expense,516667.0,466717.0
+2024-05,Engineering,Salaries & Benefits,expense,516667.0,513169.0
+2024-06,Engineering,Salaries & Benefits,expense,516667.0,469037.0
+2024-07,Engineering,Salaries & Benefits,expense,516667.0,471500.0
+2024-08,Engineering,Salaries & Benefits,expense,516667.0,509393.0
+2024-09,Engineering,Salaries & Benefits,expense,516667.0,523190.0
+2024-10,Engineering,Salaries & Benefits,expense,516667.0,470534.0
+2024-11,Engineering,Salaries & Benefits,expense,516667.0,480910.0
+2024-12,Engineering,Salaries & Benefits,expense,516667.0,490078.0
+2025-01,Engineering,Salaries & Benefits,expense,563167.0,553715.0
+2025-02,Engineering,Salaries & Benefits,expense,563167.0,515483.0
+2025-03,Engineering,Salaries & Benefits,expense,563167.0,525923.0
+2025-04,Engineering,Salaries & Benefits,expense,563167.0,540321.0
+2025-05,Engineering,Salaries & Benefits,expense,563167.0,535498.0
+2025-06,Engineering,Salaries & Benefits,expense,563167.0,524081.0
+2025-07,Engineering,Salaries & Benefits,expense,563167.0,527493.0
+2025-08,Engineering,Salaries & Benefits,expense,563167.0,510019.0
+2025-09,Engineering,Salaries & Benefits,expense,563167.0,526023.0
+2025-10,Engineering,Salaries & Benefits,expense,563167.0,525626.0
+2025-11,Engineering,Salaries & Benefits,expense,563167.0,532645.0
+2025-12,Engineering,Salaries & Benefits,expense,563167.0,521558.0
+2024-01,Engineering,Contractors,expense,75000.0,84091.0
+2024-02,Engineering,Contractors,expense,75000.0,85918.0
+2024-03,Engineering,Contractors,expense,75000.0,83025.0
+2024-04,Engineering,Contractors,expense,75000.0,83687.0
+2024-05,Engineering,Contractors,expense,75000.0,82679.0
+2024-06,Engineering,Contractors,expense,75000.0,82500.0
+2024-07,Engineering,Contractors,expense,75000.0,80065.0
+2024-08,Engineering,Contractors,expense,75000.0,83568.0
+2024-09,Engineering,Contractors,expense,75000.0,82172.0
+2024-10,Engineering,Contractors,expense,75000.0,89564.0
+2024-11,Engineering,Contractors,expense,75000.0,87810.0
+2024-12,Engineering,Contractors,expense,75000.0,83802.0
+2025-01,Engineering,Contractors,expense,81750.0,87118.0
+2025-02,Engineering,Contractors,expense,81750.0,85833.0
+2025-03,Engineering,Contractors,expense,81750.0,94307.0
+2025-04,Engineering,Contractors,expense,81750.0,90892.0
+2025-05,Engineering,Contractors,expense,81750.0,91691.0
+2025-06,Engineering,Contractors,expense,81750.0,83507.0
+2025-07,Engineering,Contractors,expense,81750.0,93337.0
+2025-08,Engineering,Contractors,expense,81750.0,91597.0
+2025-09,Engineering,Contractors,expense,81750.0,85840.0
+2025-10,Engineering,Contractors,expense,81750.0,88190.0
+2025-11,Engineering,Contractors,expense,81750.0,90895.0
+2025-12,Engineering,Contractors,expense,81750.0,90118.0
+2024-01,Engineering,Cloud & Infrastructure,expense,116667.0,119799.0
+2024-02,Engineering,Cloud & Infrastructure,expense,116667.0,120790.0
+2024-03,Engineering,Cloud & Infrastructure,expense,116667.0,120010.0
+2024-04,Engineering,Cloud & Infrastructure,expense,116667.0,122134.0
+2024-05,Engineering,Cloud & Infrastructure,expense,116667.0,129059.0
+2024-06,Engineering,Cloud & Infrastructure,expense,116667.0,107858.0
+2024-07,Engineering,Cloud & Infrastructure,expense,116667.0,120090.0
+2024-08,Engineering,Cloud & Infrastructure,expense,116667.0,122260.0
+2024-09,Engineering,Cloud & Infrastructure,expense,116667.0,122887.0
+2024-10,Engineering,Cloud & Infrastructure,expense,116667.0,119381.0
+2024-11,Engineering,Cloud & Infrastructure,expense,116667.0,112111.0
+2024-12,Engineering,Cloud & Infrastructure,expense,116667.0,123055.0
+2025-01,Engineering,Cloud & Infrastructure,expense,127167.0,142138.0
+2025-02,Engineering,Cloud & Infrastructure,expense,127167.0,123476.0
+2025-03,Engineering,Cloud & Infrastructure,expense,127167.0,137197.0
+2025-04,Engineering,Cloud & Infrastructure,expense,127167.0,130373.0
+2025-05,Engineering,Cloud & Infrastructure,expense,127167.0,170052.0
+2025-06,Engineering,Cloud & Infrastructure,expense,127167.0,126228.0
+2025-07,Engineering,Cloud & Infrastructure,expense,127167.0,130339.0
+2025-08,Engineering,Cloud & Infrastructure,expense,127167.0,139693.0
+2025-09,Engineering,Cloud & Infrastructure,expense,127167.0,135588.0
+2025-10,Engineering,Cloud & Infrastructure,expense,127167.0,142166.0
+2025-11,Engineering,Cloud & Infrastructure,expense,127167.0,138991.0
+2025-12,Engineering,Cloud & Infrastructure,expense,127167.0,134766.0
+2024-01,Engineering,Software & Subscriptions,expense,40000.0,43139.0
+2024-02,Engineering,Software & Subscriptions,expense,40000.0,40790.0
+2024-03,Engineering,Software & Subscriptions,expense,40000.0,41490.0
+2024-04,Engineering,Software & Subscriptions,expense,40000.0,39466.0
+2024-05,Engineering,Software & Subscriptions,expense,40000.0,40120.0
+2024-06,Engineering,Software & Subscriptions,expense,40000.0,38745.0
+2024-07,Engineering,Software & Subscriptions,expense,40000.0,41781.0
+2024-08,Engineering,Software & Subscriptions,expense,40000.0,37879.0
+2024-09,Engineering,Software & Subscriptions,expense,40000.0,41408.0
+2024-10,Engineering,Software & Subscriptions,expense,40000.0,39657.0
+2024-11,Engineering,Software & Subscriptions,expense,40000.0,42108.0
+2024-12,Engineering,Software & Subscriptions,expense,40000.0,41352.0
+2025-01,Engineering,Software & Subscriptions,expense,43600.0,47172.0
+2025-02,Engineering,Software & Subscriptions,expense,43600.0,45034.0
+2025-03,Engineering,Software & Subscriptions,expense,43600.0,40516.0
+2025-04,Engineering,Software & Subscriptions,expense,43600.0,43469.0
+2025-05,Engineering,Software & Subscriptions,expense,43600.0,41301.0
+2025-06,Engineering,Software & Subscriptions,expense,43600.0,42583.0
+2025-07,Engineering,Software & Subscriptions,expense,43600.0,46565.0
+2025-08,Engineering,Software & Subscriptions,expense,43600.0,44851.0
+2025-09,Engineering,Software & Subscriptions,expense,43600.0,42229.0
+2025-10,Engineering,Software & Subscriptions,expense,43600.0,41611.0
+2025-11,Engineering,Software & Subscriptions,expense,43600.0,43664.0
+2025-12,Engineering,Software & Subscriptions,expense,43600.0,41213.0
+2024-01,Engineering,Travel & Entertainment,expense,6000.0,5819.0
+2024-02,Engineering,Travel & Entertainment,expense,9000.0,9126.0
+2024-03,Engineering,Travel & Entertainment,expense,11000.0,11572.0
+2024-04,Engineering,Travel & Entertainment,expense,11500.0,11815.0
+2024-05,Engineering,Travel & Entertainment,expense,11500.0,10314.0
+2024-06,Engineering,Travel & Entertainment,expense,11000.0,11151.0
+2024-07,Engineering,Travel & Entertainment,expense,9500.0,9531.0
+2024-08,Engineering,Travel & Entertainment,expense,9000.0,9168.0
+2024-09,Engineering,Travel & Entertainment,expense,12000.0,12873.0
+2024-10,Engineering,Travel & Entertainment,expense,12000.0,10886.0
+2024-11,Engineering,Travel & Entertainment,expense,10500.0,10221.0
+2024-12,Engineering,Travel & Entertainment,expense,7000.0,7186.0
+2025-01,Engineering,Travel & Entertainment,expense,6540.0,6075.0
+2025-02,Engineering,Travel & Entertainment,expense,9810.0,10462.0
+2025-03,Engineering,Travel & Entertainment,expense,11990.0,12189.0
+2025-04,Engineering,Travel & Entertainment,expense,12535.0,13013.0
+2025-05,Engineering,Travel & Entertainment,expense,12535.0,12213.0
+2025-06,Engineering,Travel & Entertainment,expense,11990.0,12429.0
+2025-07,Engineering,Travel & Entertainment,expense,10355.0,10853.0
+2025-08,Engineering,Travel & Entertainment,expense,9810.0,9913.0
+2025-09,Engineering,Travel & Entertainment,expense,13080.0,13218.0
+2025-10,Engineering,Travel & Entertainment,expense,13080.0,13239.0
+2025-11,Engineering,Travel & Entertainment,expense,11445.0,11000.0
+2025-12,Engineering,Travel & Entertainment,expense,7630.0,7579.0
+2024-01,Operations,Salaries & Benefits,expense,175000.0,174333.0
+2024-02,Operations,Salaries & Benefits,expense,175000.0,176677.0
+2024-03,Operations,Salaries & Benefits,expense,175000.0,179374.0
+2024-04,Operations,Salaries & Benefits,expense,175000.0,170369.0
+2024-05,Operations,Salaries & Benefits,expense,175000.0,174453.0
+2024-06,Operations,Salaries & Benefits,expense,175000.0,181481.0
+2024-07,Operations,Salaries & Benefits,expense,175000.0,171747.0
+2024-08,Operations,Salaries & Benefits,expense,175000.0,171403.0
+2024-09,Operations,Salaries & Benefits,expense,175000.0,175885.0
+2024-10,Operations,Salaries & Benefits,expense,175000.0,178694.0
+2024-11,Operations,Salaries & Benefits,expense,175000.0,175050.0
+2024-12,Operations,Salaries & Benefits,expense,175000.0,180814.0
+2025-01,Operations,Salaries & Benefits,expense,185500.0,189473.0
+2025-02,Operations,Salaries & Benefits,expense,185500.0,189404.0
+2025-03,Operations,Salaries & Benefits,expense,185500.0,188070.0
+2025-04,Operations,Salaries & Benefits,expense,185500.0,196294.0
+2025-05,Operations,Salaries & Benefits,expense,185500.0,184549.0
+2025-06,Operations,Salaries & Benefits,expense,185500.0,176209.0
+2025-07,Operations,Salaries & Benefits,expense,185500.0,192940.0
+2025-08,Operations,Salaries & Benefits,expense,185500.0,183377.0
+2025-09,Operations,Salaries & Benefits,expense,185500.0,186000.0
+2025-10,Operations,Salaries & Benefits,expense,185500.0,191573.0
+2025-11,Operations,Salaries & Benefits,expense,185500.0,178070.0
+2025-12,Operations,Salaries & Benefits,expense,185500.0,179695.0
+2024-01,Operations,Facilities & Rent,expense,91667.0,87997.0
+2024-02,Operations,Facilities & Rent,expense,91667.0,89847.0
+2024-03,Operations,Facilities & Rent,expense,91667.0,92674.0
+2024-04,Operations,Facilities & Rent,expense,91667.0,92868.0
+2024-05,Operations,Facilities & Rent,expense,91667.0,92300.0
+2024-06,Operations,Facilities & Rent,expense,91667.0,88429.0
+2024-07,Operations,Facilities & Rent,expense,91667.0,86373.0
+2024-08,Operations,Facilities & Rent,expense,91667.0,91791.0
+2024-09,Operations,Facilities & Rent,expense,91667.0,90586.0
+2024-10,Operations,Facilities & Rent,expense,91667.0,92719.0
+2024-11,Operations,Facilities & Rent,expense,91667.0,93275.0
+2024-12,Operations,Facilities & Rent,expense,91667.0,91983.0
+2025-01,Operations,Facilities & Rent,expense,97167.0,99013.0
+2025-02,Operations,Facilities & Rent,expense,97167.0,97723.0
+2025-03,Operations,Facilities & Rent,expense,97167.0,132463.0
+2025-04,Operations,Facilities & Rent,expense,97167.0,95455.0
+2025-05,Operations,Facilities & Rent,expense,97167.0,96730.0
+2025-06,Operations,Facilities & Rent,expense,97167.0,97645.0
+2025-07,Operations,Facilities & Rent,expense,97167.0,99160.0
+2025-08,Operations,Facilities & Rent,expense,97167.0,96210.0
+2025-09,Operations,Facilities & Rent,expense,97167.0,98433.0
+2025-10,Operations,Facilities & Rent,expense,97167.0,96521.0
+2025-11,Operations,Facilities & Rent,expense,97167.0,96881.0
+2025-12,Operations,Facilities & Rent,expense,97167.0,99182.0
+2024-01,Operations,Logistics & Fulfillment,expense,66667.0,64021.0
+2024-02,Operations,Logistics & Fulfillment,expense,66667.0,66111.0
+2024-03,Operations,Logistics & Fulfillment,expense,66667.0,65553.0
+2024-04,Operations,Logistics & Fulfillment,expense,66667.0,62999.0
+2024-05,Operations,Logistics & Fulfillment,expense,66667.0,67965.0
+2024-06,Operations,Logistics & Fulfillment,expense,66667.0,72248.0
+2024-07,Operations,Logistics & Fulfillment,expense,66667.0,69145.0
+2024-08,Operations,Logistics & Fulfillment,expense,66667.0,70593.0
+2024-09,Operations,Logistics & Fulfillment,expense,66667.0,73268.0
+2024-10,Operations,Logistics & Fulfillment,expense,66667.0,73983.0
+2024-11,Operations,Logistics & Fulfillment,expense,66667.0,69793.0
+2024-12,Operations,Logistics & Fulfillment,expense,66667.0,74061.0
+2025-01,Operations,Logistics & Fulfillment,expense,70667.0,74493.0
+2025-02,Operations,Logistics & Fulfillment,expense,70667.0,71537.0
+2025-03,Operations,Logistics & Fulfillment,expense,70667.0,72310.0
+2025-04,Operations,Logistics & Fulfillment,expense,70667.0,69492.0
+2025-05,Operations,Logistics & Fulfillment,expense,70667.0,71376.0
+2025-06,Operations,Logistics & Fulfillment,expense,70667.0,73062.0
+2025-07,Operations,Logistics & Fulfillment,expense,70667.0,76755.0
+2025-08,Operations,Logistics & Fulfillment,expense,70667.0,79672.0
+2025-09,Operations,Logistics & Fulfillment,expense,70667.0,69805.0
+2025-10,Operations,Logistics & Fulfillment,expense,70667.0,75449.0
+2025-11,Operations,Logistics & Fulfillment,expense,70667.0,70891.0
+2025-12,Operations,Logistics & Fulfillment,expense,70667.0,75710.0
+2024-01,Operations,Software & Subscriptions,expense,12500.0,12426.0
+2024-02,Operations,Software & Subscriptions,expense,12500.0,11470.0
+2024-03,Operations,Software & Subscriptions,expense,12500.0,13022.0
+2024-04,Operations,Software & Subscriptions,expense,12500.0,12160.0
+2024-05,Operations,Software & Subscriptions,expense,12500.0,12200.0
+2024-06,Operations,Software & Subscriptions,expense,12500.0,11898.0
+2024-07,Operations,Software & Subscriptions,expense,12500.0,12132.0
+2024-08,Operations,Software & Subscriptions,expense,12500.0,12741.0
+2024-09,Operations,Software & Subscriptions,expense,12500.0,12394.0
+2024-10,Operations,Software & Subscriptions,expense,12500.0,12685.0
+2024-11,Operations,Software & Subscriptions,expense,12500.0,12704.0
+2024-12,Operations,Software & Subscriptions,expense,12500.0,13243.0
+2025-01,Operations,Software & Subscriptions,expense,13250.0,13046.0
+2025-02,Operations,Software & Subscriptions,expense,13250.0,12369.0
+2025-03,Operations,Software & Subscriptions,expense,13250.0,13886.0
+2025-04,Operations,Software & Subscriptions,expense,13250.0,13052.0
+2025-05,Operations,Software & Subscriptions,expense,13250.0,13915.0
+2025-06,Operations,Software & Subscriptions,expense,13250.0,13479.0
+2025-07,Operations,Software & Subscriptions,expense,13250.0,13172.0
+2025-08,Operations,Software & Subscriptions,expense,13250.0,13458.0
+2025-09,Operations,Software & Subscriptions,expense,13250.0,14413.0
+2025-10,Operations,Software & Subscriptions,expense,13250.0,14488.0
+2025-11,Operations,Software & Subscriptions,expense,13250.0,13291.0
+2025-12,Operations,Software & Subscriptions,expense,13250.0,13346.0
+2024-01,Customer Success,Salaries & Benefits,expense,158333.0,157843.0
+2024-02,Customer Success,Salaries & Benefits,expense,158333.0,150236.0
+2024-03,Customer Success,Salaries & Benefits,expense,158333.0,154902.0
+2024-04,Customer Success,Salaries & Benefits,expense,158333.0,153481.0
+2024-05,Customer Success,Salaries & Benefits,expense,158333.0,154826.0
+2024-06,Customer Success,Salaries & Benefits,expense,158333.0,150285.0
+2024-07,Customer Success,Salaries & Benefits,expense,158333.0,147291.0
+2024-08,Customer Success,Salaries & Benefits,expense,158333.0,145378.0
+2024-09,Customer Success,Salaries & Benefits,expense,158333.0,149160.0
+2024-10,Customer Success,Salaries & Benefits,expense,158333.0,151768.0
+2024-11,Customer Success,Salaries & Benefits,expense,158333.0,152423.0
+2024-12,Customer Success,Salaries & Benefits,expense,158333.0,161252.0
+2025-01,Customer Success,Salaries & Benefits,expense,171000.0,170598.0
+2025-02,Customer Success,Salaries & Benefits,expense,171000.0,161757.0
+2025-03,Customer Success,Salaries & Benefits,expense,171000.0,167356.0
+2025-04,Customer Success,Salaries & Benefits,expense,171000.0,164130.0
+2025-05,Customer Success,Salaries & Benefits,expense,171000.0,164654.0
+2025-06,Customer Success,Salaries & Benefits,expense,171000.0,166662.0
+2025-07,Customer Success,Salaries & Benefits,expense,171000.0,168517.0
+2025-08,Customer Success,Salaries & Benefits,expense,171000.0,190070.0
+2025-09,Customer Success,Salaries & Benefits,expense,171000.0,170418.0
+2025-10,Customer Success,Salaries & Benefits,expense,171000.0,160988.0
+2025-11,Customer Success,Salaries & Benefits,expense,171000.0,165897.0
+2025-12,Customer Success,Salaries & Benefits,expense,171000.0,176975.0
+2024-01,Customer Success,Software & Subscriptions,expense,21667.0,21884.0
+2024-02,Customer Success,Software & Subscriptions,expense,21667.0,23064.0
+2024-03,Customer Success,Software & Subscriptions,expense,21667.0,21756.0
+2024-04,Customer Success,Software & Subscriptions,expense,21667.0,22233.0
+2024-05,Customer Success,Software & Subscriptions,expense,21667.0,21611.0
+2024-06,Customer Success,Software & Subscriptions,expense,21667.0,21501.0
+2024-07,Customer Success,Software & Subscriptions,expense,21667.0,20907.0
+2024-08,Customer Success,Software & Subscriptions,expense,21667.0,22086.0
+2024-09,Customer Success,Software & Subscriptions,expense,21667.0,20836.0
+2024-10,Customer Success,Software & Subscriptions,expense,21667.0,22316.0
+2024-11,Customer Success,Software & Subscriptions,expense,21667.0,22725.0
+2024-12,Customer Success,Software & Subscriptions,expense,21667.0,22024.0
+2025-01,Customer Success,Software & Subscriptions,expense,23400.0,23099.0
+2025-02,Customer Success,Software & Subscriptions,expense,23400.0,23878.0
+2025-03,Customer Success,Software & Subscriptions,expense,23400.0,23075.0
+2025-04,Customer Success,Software & Subscriptions,expense,23400.0,24385.0
+2025-05,Customer Success,Software & Subscriptions,expense,23400.0,21472.0
+2025-06,Customer Success,Software & Subscriptions,expense,23400.0,23047.0
+2025-07,Customer Success,Software & Subscriptions,expense,23400.0,21304.0
+2025-08,Customer Success,Software & Subscriptions,expense,23400.0,21826.0
+2025-09,Customer Success,Software & Subscriptions,expense,23400.0,24836.0
+2025-10,Customer Success,Software & Subscriptions,expense,23400.0,24343.0
+2025-11,Customer Success,Software & Subscriptions,expense,23400.0,22642.0
+2025-12,Customer Success,Software & Subscriptions,expense,23400.0,21818.0
+2024-01,Customer Success,Travel & Entertainment,expense,7000.0,6066.0
+2024-02,Customer Success,Travel & Entertainment,expense,10500.0,10243.0
+2024-03,Customer Success,Travel & Entertainment,expense,12833.0,14231.0
+2024-04,Customer Success,Travel & Entertainment,expense,13417.0,13679.0
+2024-05,Customer Success,Travel & Entertainment,expense,13417.0,13079.0
+2024-06,Customer Success,Travel & Entertainment,expense,12833.0,13102.0
+2024-07,Customer Success,Travel & Entertainment,expense,11083.0,10305.0
+2024-08,Customer Success,Travel & Entertainment,expense,10500.0,10360.0
+2024-09,Customer Success,Travel & Entertainment,expense,14000.0,14063.0
+2024-10,Customer Success,Travel & Entertainment,expense,14000.0,13946.0
+2024-11,Customer Success,Travel & Entertainment,expense,12250.0,12686.0
+2024-12,Customer Success,Travel & Entertainment,expense,8167.0,8293.0
+2025-01,Customer Success,Travel & Entertainment,expense,7560.0,7787.0
+2025-02,Customer Success,Travel & Entertainment,expense,11340.0,10989.0
+2025-03,Customer Success,Travel & Entertainment,expense,13860.0,14420.0
+2025-04,Customer Success,Travel & Entertainment,expense,14490.0,15552.0
+2025-05,Customer Success,Travel & Entertainment,expense,14490.0,13857.0
+2025-06,Customer Success,Travel & Entertainment,expense,13860.0,13306.0
+2025-07,Customer Success,Travel & Entertainment,expense,11970.0,12690.0
+2025-08,Customer Success,Travel & Entertainment,expense,11340.0,11242.0
+2025-09,Customer Success,Travel & Entertainment,expense,15120.0,16075.0
+2025-10,Customer Success,Travel & Entertainment,expense,15120.0,14819.0
+2025-11,Customer Success,Travel & Entertainment,expense,13230.0,14096.0
+2025-12,Customer Success,Travel & Entertainment,expense,8820.0,8872.0
+2024-01,Customer Success,Training & Development,expense,9167.0,9273.0
+2024-02,Customer Success,Training & Development,expense,9167.0,9812.0
+2024-03,Customer Success,Training & Development,expense,9167.0,9017.0
+2024-04,Customer Success,Training & Development,expense,9167.0,8778.0
+2024-05,Customer Success,Training & Development,expense,9167.0,8982.0
+2024-06,Customer Success,Training & Development,expense,9167.0,9353.0
+2024-07,Customer Success,Training & Development,expense,9167.0,8521.0
+2024-08,Customer Success,Training & Development,expense,9167.0,9430.0
+2024-09,Customer Success,Training & Development,expense,9167.0,8944.0
+2024-10,Customer Success,Training & Development,expense,9167.0,9640.0
+2024-11,Customer Success,Training & Development,expense,9167.0,8179.0
+2024-12,Customer Success,Training & Development,expense,9167.0,8842.0
+2025-01,Customer Success,Training & Development,expense,9900.0,9149.0
+2025-02,Customer Success,Training & Development,expense,9900.0,9532.0
+2025-03,Customer Success,Training & Development,expense,9900.0,10010.0
+2025-04,Customer Success,Training & Development,expense,9900.0,9820.0
+2025-05,Customer Success,Training & Development,expense,9900.0,9787.0
+2025-06,Customer Success,Training & Development,expense,9900.0,9829.0
+2025-07,Customer Success,Training & Development,expense,9900.0,9991.0
+2025-08,Customer Success,Training & Development,expense,9900.0,9451.0
+2025-09,Customer Success,Training & Development,expense,9900.0,10215.0
+2025-10,Customer Success,Training & Development,expense,9900.0,10195.0
+2025-11,Customer Success,Training & Development,expense,9900.0,10072.0
+2025-12,Customer Success,Training & Development,expense,9900.0,10148.0
+2024-01,G&A,Salaries & Benefits,expense,133333.0,134321.0
+2024-02,G&A,Salaries & Benefits,expense,133333.0,140117.0
+2024-03,G&A,Salaries & Benefits,expense,133333.0,133043.0
+2024-04,G&A,Salaries & Benefits,expense,133333.0,132310.0
+2024-05,G&A,Salaries & Benefits,expense,133333.0,130822.0
+2024-06,G&A,Salaries & Benefits,expense,133333.0,129892.0
+2024-07,G&A,Salaries & Benefits,expense,133333.0,129185.0
+2024-08,G&A,Salaries & Benefits,expense,133333.0,130371.0
+2024-09,G&A,Salaries & Benefits,expense,133333.0,133098.0
+2024-10,G&A,Salaries & Benefits,expense,133333.0,134448.0
+2024-11,G&A,Salaries & Benefits,expense,133333.0,133504.0
+2024-12,G&A,Salaries & Benefits,expense,133333.0,130782.0
+2025-01,G&A,Salaries & Benefits,expense,140000.0,143151.0
+2025-02,G&A,Salaries & Benefits,expense,140000.0,142588.0
+2025-03,G&A,Salaries & Benefits,expense,140000.0,139441.0
+2025-04,G&A,Salaries & Benefits,expense,140000.0,137715.0
+2025-05,G&A,Salaries & Benefits,expense,140000.0,141919.0
+2025-06,G&A,Salaries & Benefits,expense,140000.0,140658.0
+2025-07,G&A,Salaries & Benefits,expense,140000.0,134932.0
+2025-08,G&A,Salaries & Benefits,expense,140000.0,139762.0
+2025-09,G&A,Salaries & Benefits,expense,140000.0,140917.0
+2025-10,G&A,Salaries & Benefits,expense,140000.0,136851.0
+2025-11,G&A,Salaries & Benefits,expense,140000.0,140664.0
+2025-12,G&A,Salaries & Benefits,expense,140000.0,134908.0
+2024-01,G&A,Professional Services,expense,41667.0,46672.0
+2024-02,G&A,Professional Services,expense,41667.0,46507.0
+2024-03,G&A,Professional Services,expense,41667.0,43693.0
+2024-04,G&A,Professional Services,expense,41667.0,44848.0
+2024-05,G&A,Professional Services,expense,41667.0,39648.0
+2024-06,G&A,Professional Services,expense,41667.0,41999.0
+2024-07,G&A,Professional Services,expense,41667.0,66532.0
+2024-08,G&A,Professional Services,expense,41667.0,42156.0
+2024-09,G&A,Professional Services,expense,41667.0,45506.0
+2024-10,G&A,Professional Services,expense,41667.0,47912.0
+2024-11,G&A,Professional Services,expense,41667.0,41961.0
+2024-12,G&A,Professional Services,expense,41667.0,42596.0
+2025-01,G&A,Professional Services,expense,43750.0,46839.0
+2025-02,G&A,Professional Services,expense,43750.0,49547.0
+2025-03,G&A,Professional Services,expense,43750.0,43968.0
+2025-04,G&A,Professional Services,expense,43750.0,46865.0
+2025-05,G&A,Professional Services,expense,43750.0,49961.0
+2025-06,G&A,Professional Services,expense,43750.0,43123.0
+2025-07,G&A,Professional Services,expense,43750.0,43853.0
+2025-08,G&A,Professional Services,expense,43750.0,45541.0
+2025-09,G&A,Professional Services,expense,43750.0,45350.0
+2025-10,G&A,Professional Services,expense,43750.0,47975.0
+2025-11,G&A,Professional Services,expense,43750.0,46851.0
+2025-12,G&A,Professional Services,expense,43750.0,42881.0
+2024-01,G&A,Insurance,expense,23333.0,23634.0
+2024-02,G&A,Insurance,expense,23333.0,22996.0
+2024-03,G&A,Insurance,expense,23333.0,24077.0
+2024-04,G&A,Insurance,expense,23333.0,22967.0
+2024-05,G&A,Insurance,expense,23333.0,22962.0
+2024-06,G&A,Insurance,expense,23333.0,23649.0
+2024-07,G&A,Insurance,expense,23333.0,23778.0
+2024-08,G&A,Insurance,expense,23333.0,23595.0
+2024-09,G&A,Insurance,expense,23333.0,22350.0
+2024-10,G&A,Insurance,expense,23333.0,23647.0
+2024-11,G&A,Insurance,expense,23333.0,22730.0
+2024-12,G&A,Insurance,expense,23333.0,23471.0
+2025-01,G&A,Insurance,expense,24500.0,23628.0
+2025-02,G&A,Insurance,expense,24500.0,24773.0
+2025-03,G&A,Insurance,expense,24500.0,24006.0
+2025-04,G&A,Insurance,expense,24500.0,23714.0
+2025-05,G&A,Insurance,expense,24500.0,24937.0
+2025-06,G&A,Insurance,expense,24500.0,24648.0
+2025-07,G&A,Insurance,expense,24500.0,24124.0
+2025-08,G&A,Insurance,expense,24500.0,25389.0
+2025-09,G&A,Insurance,expense,24500.0,24230.0
+2025-10,G&A,Insurance,expense,24500.0,24520.0
+2025-11,G&A,Insurance,expense,24500.0,24665.0
+2025-12,G&A,Insurance,expense,24500.0,24120.0
+2024-01,G&A,Recruiting,expense,40833.0,41699.0
+2024-02,G&A,Recruiting,expense,37917.0,37006.0
+2024-03,G&A,Recruiting,expense,35000.0,34352.0
+2024-04,G&A,Recruiting,expense,29167.0,30955.0
+2024-05,G&A,Recruiting,expense,27708.0,26411.0
+2024-06,G&A,Recruiting,expense,26250.0,23400.0
+2024-07,G&A,Recruiting,expense,23333.0,25025.0
+2024-08,G&A,Recruiting,expense,24792.0,27636.0
+2024-09,G&A,Recruiting,expense,29167.0,28635.0
+2024-10,G&A,Recruiting,expense,27708.0,25293.0
+2024-11,G&A,Recruiting,expense,24792.0,24445.0
+2024-12,G&A,Recruiting,expense,23333.0,23033.0
+2025-01,G&A,Recruiting,expense,42875.0,42509.0
+2025-02,G&A,Recruiting,expense,39812.0,37818.0
+2025-03,G&A,Recruiting,expense,36750.0,37708.0
+2025-04,G&A,Recruiting,expense,30625.0,31348.0
+2025-05,G&A,Recruiting,expense,29094.0,27137.0
+2025-06,G&A,Recruiting,expense,27562.0,28430.0
+2025-07,G&A,Recruiting,expense,24500.0,26763.0
+2025-08,G&A,Recruiting,expense,26031.0,26233.0
+2025-09,G&A,Recruiting,expense,30625.0,30160.0
+2025-10,G&A,Recruiting,expense,29094.0,28908.0
+2025-11,G&A,Recruiting,expense,26031.0,26752.0
+2025-12,G&A,Recruiting,expense,24500.0,22592.0
+2024-01,G&A,Facilities & Rent,expense,33333.0,33470.0
+2024-02,G&A,Facilities & Rent,expense,33333.0,33008.0
+2024-03,G&A,Facilities & Rent,expense,33333.0,34873.0
+2024-04,G&A,Facilities & Rent,expense,33333.0,33188.0
+2024-05,G&A,Facilities & Rent,expense,33333.0,34723.0
+2024-06,G&A,Facilities & Rent,expense,33333.0,32414.0
+2024-07,G&A,Facilities & Rent,expense,33333.0,33823.0
+2024-08,G&A,Facilities & Rent,expense,33333.0,33600.0
+2024-09,G&A,Facilities & Rent,expense,33333.0,32609.0
+2024-10,G&A,Facilities & Rent,expense,33333.0,33481.0
+2024-11,G&A,Facilities & Rent,expense,33333.0,34344.0
+2024-12,G&A,Facilities & Rent,expense,33333.0,33064.0
+2025-01,G&A,Facilities & Rent,expense,35000.0,33520.0
+2025-02,G&A,Facilities & Rent,expense,35000.0,34985.0
+2025-03,G&A,Facilities & Rent,expense,35000.0,34210.0
+2025-04,G&A,Facilities & Rent,expense,35000.0,34700.0
+2025-05,G&A,Facilities & Rent,expense,35000.0,34929.0
+2025-06,G&A,Facilities & Rent,expense,35000.0,33508.0
+2025-07,G&A,Facilities & Rent,expense,35000.0,33586.0
+2025-08,G&A,Facilities & Rent,expense,35000.0,35422.0
+2025-09,G&A,Facilities & Rent,expense,35000.0,34543.0
+2025-10,G&A,Facilities & Rent,expense,35000.0,32756.0
+2025-11,G&A,Facilities & Rent,expense,35000.0,35687.0
+2025-12,G&A,Facilities & Rent,expense,35000.0,35238.0
