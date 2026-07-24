@@ -103,7 +103,25 @@ def validate(df: pd.DataFrame) -> pd.DataFrame:
         raise ValueError(f"Input is missing required column(s): {missing}")
 
     out = df.copy()
-    out["period"] = pd.PeriodIndex(out["month"], freq="M")
+
+    # pandas parses month strings leniently, which is mostly helpful:
+    # "Jan2025" and "01/2025" both resolve to 2025-01. But a bare year
+    # ("2025") is silently coerced to January of that year, which is a
+    # wrong answer rather than a convenience -- someone uploading annual
+    # figures would see them land in a single month with no warning.
+    bare_year = out["month"].astype(str).str.fullmatch(r"\s*\d{4}\s*")
+    if bare_year.any():
+        raise ValueError(
+            f"{int(bare_year.sum())} row(s) have a bare year in `month` "
+            "(e.g. '2025'). Use a month such as '2025-01'."
+        )
+
+    try:
+        out["period"] = pd.PeriodIndex(out["month"], freq="M")
+    except Exception as exc:
+        raise ValueError(
+            f"`month` could not be parsed as year-month values: {exc}"
+        ) from exc
     out["month"] = out["period"].astype(str)
     out["budget"] = pd.to_numeric(out["budget"], errors="coerce")
     out["actual"] = pd.to_numeric(out["actual"], errors="coerce")

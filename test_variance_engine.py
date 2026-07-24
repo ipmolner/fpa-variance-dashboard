@@ -204,6 +204,24 @@ def test_non_numeric_amounts_raise():
         _frame([_row("2024-01", budget="n/a")])
 
 
+def test_bare_year_is_rejected():
+    # pandas would silently turn "2025" into 2025-01; that is a wrong
+    # answer, not a convenience.
+    with pytest.raises(ValueError, match="bare year"):
+        _frame([_row("2025")])
+
+
+def test_unparseable_month_raises_clearly():
+    with pytest.raises(ValueError, match="could not be parsed"):
+        _frame([_row("not-a-month")])
+
+
+def test_common_month_formats_are_accepted():
+    # Being lenient here is genuinely useful for uploaded files.
+    for fmt in ("2024-01", "Jan2024", "01/2024"):
+        assert _frame([_row(fmt)]).loc[0, "month"] == "2024-01"
+
+
 # --- end-to-end on the real file ------------------------------------------
 def test_report_runs_on_generated_dataset():
     from variance_engine import load_data
