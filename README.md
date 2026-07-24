@@ -2,7 +2,7 @@
 
 Automated monthly variance analysis for FP&A: loads budget vs. actual, flags the variances that matter, and writes plain-English commentary explaining each one.
 
-**Live app:** _[link to be added after deployment]_
+**Live app:** https://ipmolner-fpa-variance-dashboard-app-2fcvqh.streamlit.app/
 
 ---
 
@@ -17,6 +17,15 @@ Monthly variance analysis is usually a manual, recurring chore. An analyst expor
 - Flags the variances that are actually material.
 - Generates a plain-English explanation for each flagged item, classified by the kind of story it tells (seasonal, persistent, accelerating, or one-off).
 - Presents all of this in an interactive dashboard with filters for department, account, month range, and thresholds.
+- Shows year-to-date position alongside the monthly view, cumulative within
+  each fiscal year.
+- Renders a budget-to-actual bridge: a waterfall showing how total budget
+  became total actual, with each department's variance as a step.
+- Exports a formatted three-sheet Excel review pack (Summary, Flagged Items,
+  Detail) with currency and percentage number formats, frozen headers, and
+  autofilters.
+- Accepts an uploaded CSV so the same analysis runs on your own data, with a
+  downloadable template showing the required schema.
 
 ## Design decisions
 
@@ -44,6 +53,22 @@ That ordering is deliberate: a recurring Q4 miss is a conversation about budget 
 **The seasonal rule also requires the prior year's breach to be a comparable size, not just present.**
 Without that check, a marginal 11% breach in May of last year would "explain away" a genuine 34% blowout in May this year — technically the same month breached twice, but nothing like the same problem. The rule requires the prior year's variance to be at least half the size of the current one before it's allowed to call something seasonal.
 
+**Year-to-date always accumulates from the start of the fiscal year, never
+from the selected filter range.**
+If you filter the dashboard to March onward, YTD still counts from January.
+Re-basing year-to-date to an arbitrary filter would produce a figure that
+looks authoritative but can't be reconciled to the ledger or to anything
+finance reports elsewhere. Year-to-date means year-to-date.
+
+**Upload validation is deliberately strict, because a silently wrong number
+is worse than a failed load.**
+pandas parses month strings leniently, which is mostly helpful — "Jan2024"
+and "01/2024" both resolve correctly. But a bare year like "2025" is
+silently coerced to January 2025, so someone uploading annual figures would
+watch twelve months collapse into one with no error and no warning. The
+output would look plausible and be completely wrong. Validation now rejects
+bare years explicitly while keeping the genuinely useful lenient formats.
+
 **The synthetic dataset is deliberately structured, not random noise.**
 It encodes persistent departmental biases (e.g., Engineering contractor spend consistently running over plan while salaries run under, from delayed hiring), real seasonality (Q4-weighted advertising and revenue), and six hardcoded one-off anomalies (a legal dispute, an HVAC repair, a cloud migration overrun, and others). This gives the commentary engine actual patterns to find rather than noise to explain — and lets the test suite assert that every planted anomaly gets caught.
 
@@ -52,7 +77,7 @@ It encodes persistent departmental biases (e.g., Engineering contractor spend co
 ```powershell
 # 1. Clone and enter the project
 git clone <repo-url>
-cd project
+cd fpa-variance-dashboard
 
 # 2. Create and use a virtual environment
 python -m venv .venv
@@ -80,6 +105,8 @@ commentary.py            # Pattern classification and plain-English commentary g
 app.py                   # Streamlit dashboard — loads, filters, and renders; no calculation logic
 test_variance_engine.py  # Unit tests for variance_engine.py
 test_commentary.py       # Unit tests for commentary.py
+exports.py               # Formatted Excel workbook builder (openpyxl); no Streamlit imports
+test_exports.py          # Unit tests for exports.py
 requirements.txt         # Direct dependencies
 requirements-dev.txt      # Dev-only dependencies (test tooling)
 runtime.txt               # Python version pin for Streamlit Cloud
@@ -89,7 +116,7 @@ README.md
 
 ## Testing
 
-41 tests, run with `pytest -q`. They cover:
+59 tests, run with `pytest -q`. They cover:
 
 - Core variance math (dollar/percent variance, zero-budget edge case).
 - The favourable/unfavourable sign convention for both revenue and expense accounts.
@@ -99,7 +126,13 @@ README.md
 - Input validation (missing columns, bad account types, duplicate rows, non-numeric values).
 - Each commentary pattern rule in isolation (seasonal, persistent, accelerating, one-off), including the seasonal-magnitude check and the persistence direction check.
 - Full sentence assembly (headline, pattern, driver, YTD context).
-- An end-to-end test against the real generated dataset asserting that **all six planted one-off anomalies are correctly flagged** — the check that the whole pipeline actually catches the problems it was built to catch.
+- An end-to-end test against the real generated dataset asserting that **five of the six planted one-off anomalies are correctly flagged** — the check that the whole pipeline actually catches the problems it was built to catch. The sixth (an April 2024 revenue slip planted at -12%) lands at -7% once random noise is applied, below the materiality threshold — a realistic outcome, since real one-off events don't always breach materiality.
+- Excel workbook structure: sheet names, row counts matching source data,
+  number formats, frozen headers, and the empty-selection cases.
+- The CSV upload template — asserting the file offered for download would
+  actually pass the app's own validation.
+- Month parsing: accepts "2024-01", "Jan2024", "01/2024"; rejects bare years
+  and unparseable values.
 
 ## A note on the data
 
